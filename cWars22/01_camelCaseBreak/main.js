@@ -12,10 +12,10 @@ console.clear()
 //   return string.split(/(?=[A-Z])/).join(' ')
 // }
 
-//using replace()
-function camelCaseBreak(string) {
-  return string.replace(/([A-Z])/g, ' $1')
-}
+// //using replace()
+// function camelCaseBreak(string) {
+//   return string.replace(/([A-Z])/g, ' $1')
+// }
 
 function camelCaseBreak(string) {
   string = string.split('').map(function (el) {
