@@ -1,5 +1,8 @@
 console.clear()
+// more solutions: https://www.codewars.com/kata/5631213916d70a0979000066/solutions/javascript
 
+//MySubmission
+// created counters and used for loop
 function pattern(n) {
   let output = ''
   let stars = ''
@@ -14,6 +17,20 @@ function pattern(n) {
   }
   return output
 }
+
+// //Using Array() constructor to loop through array to create output
+// function pattern(n) {
+//   if (n < 1) return '1'
+//   let output = '1'
+//   for (let i = 2; i <= n; ++i) {
+//     output += `\n1${Array(i).join('*')}${i}`
+//   }
+//   return output
+// }
+
+// function pattern(n) {
+//   // LOOK INTO repeat() method
+// }
 
 console.log(pattern(3))
 // 1\n1*2\n1**3'
