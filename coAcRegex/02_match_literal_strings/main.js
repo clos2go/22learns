@@ -1,9 +1,7 @@
 console.clear()
 
 //INSTRUCTIONS
-
 //Complete the regex waldoRegex to find "Waldo" in the string waldoIsHiding with a literal match.
-
 // In the last challenge, you searched for the word Hello using the regular expression /Hello/. That regex searched for a literal match of the string Hello. Here's another example searching for a literal match of the string Kevin:
 
 //EXAMPLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29,11 +27,3 @@ console.log(res2)
 // NOTES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 //STARTER CODE
-
-
-console.log("//INSTRUCTIONS \n\n//EXAMPLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\n\n//SOLUTION 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\n\n//TESTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\n\n//STARTER
-\n\n// NOTES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\n\n//STARTER CODE")
